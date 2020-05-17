@@ -1,0 +1,25 @@
+.container {
+  width: 250px;
+  margin-right: 2rem;
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  color: var(--light-gray);
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.text:hover {
+  color: #fff;
+  opacity: 1;
+}

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.mainLink {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 2.5rem;
+  color: var(--dark-gray);
+}
+
+.mainLink:hover {
+  color: var(--dark-gray);
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  padding-right: 35px;
+  color: #676767;         /* Sass lighten 20% */
+}
+
+.link:hover {
+  color: var(--dark-gray);
+}
+
+.contact {
+  font-size: 1.6rem;
+  color: var(--dark-gray);
+}
+
+.contact:hover {
+  color: var(--light-blue);
+}

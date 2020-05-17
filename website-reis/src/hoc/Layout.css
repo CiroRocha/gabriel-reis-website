@@ -1,0 +1,48 @@
+html {
+  font-family: 'Montserrat', sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --dark-gray: #272727;
+  --light-gray: #DBDBDB;
+  --red: #FF3F56;
+  --yellow: #FFC43C;
+  --light-blue: #3BC5FF;
+  --dark-blue: #2035EE;
+
+  --paragraph-big: 32px;
+  --paragraph-medium: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+  color: var(--dark-gray)
+}
+
+h1 {
+  font-size: 47px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--light-blue);
+  font-weight: 500;
+  font-size: var(--paragraph-medium);
+}
+
+a:hover {
+  color: var(--dark-blue)
+}
+
+p {
+  font-size: var(--paragraph-medium);
+}
