@@ -1,18 +1,11 @@
 .footerContainer {
   max-width: 1920px;
-  margin: 0 auto;
-  padding: 80px 5rem;
-  background-color: var(--dark-gray);
+  /* padding: 80px 5rem; */
   display: flex;
-}
-
-.navContainer {
-  /* width: 100%; */
-  display: flex;
-  margin: 0 auto;
+  justify-content: center;
 }
 
 .image {
   width: 250px;
-  margin-right: 7rem;
+  margin-right: 7.5rem;
 }

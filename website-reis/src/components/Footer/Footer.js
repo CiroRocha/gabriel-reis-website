@@ -4,12 +4,13 @@ import styles from './footer.module.css'
 
 import desertImage from '../../images/desert.svg'
 import NavLinks from './NavLinks/NavLinks'
+import Wrapper from '../../hoc/Wrapper/Wrapper'
 
 const Footer = () => {
   return (
-    <div className={styles.footerContainer} >
-    <div className={ styles.navContainer }>
-      <img src={desertImage} className={ styles.image } />
+    <Wrapper bgColor='dark-gray' paddingVertical='80px'>
+      <div className={styles.footerContainer} >
+        <img src={desertImage} className={ styles.image } />
         <NavLinks
           title='Sitemap'
           links={[
@@ -66,7 +67,7 @@ const Footer = () => {
           ]}
         />
       </div>
-    </div>
+    </Wrapper>
   )
 }
 
