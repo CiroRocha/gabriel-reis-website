@@ -8,12 +8,11 @@ const Wrapper = ({ children, bgColor, paddingVertical, paddingHorizontal, ...res
   const wrapperStyling= {
     backgroundColor: `var(--${bgColor})`,
     padding: `${paddingVertical} ${paddingHorizontal}`,
-    display: 'flex',
   }
 
   return (
-    <div style={ wrapperStyling } {...rest} >
-      <div className={ styles.wrapper } >
+    <div style={ wrapperStyling } >
+      <div className={ styles.wrapper } style={{ ...rest }} >
         {children}
       </div>
     </div>
@@ -29,7 +28,7 @@ Wrapper.propTypes = {
 Wrapper.defaultProps = {
   bgColor: 'white',
   paddingVertical: '150px',
-  paddingHorizontal: '4rem',
+  paddingHorizontal: '10rem',
 }
 
 export default Wrapper

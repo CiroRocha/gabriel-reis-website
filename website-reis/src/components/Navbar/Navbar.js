@@ -7,25 +7,23 @@ import Wrapper from '../../hoc/Wrapper/Wrapper'
 
 const Navbar = () => {
   return (
-    <Wrapper paddingVertical= '20px' >
-      <div className={ styles.container } >
-        <Link to='/' className={ styles.mainLink } >
-          Gabriel Reis
+    <Wrapper paddingVertical= '20px' justifyContent='space-between' >
+      <Link to='/' className={ styles.mainLink } >
+        Gabriel Reis
+      </Link>
+      <div className={ styles.linkContainer } >
+        <Link to='/about' className={ styles.link } >
+          About
         </Link>
-        <div className={ styles.linkContainer } >
-          <Link to='/about' className={ styles.link } >
-            About
-          </Link>
-          <Link to='/portfolio' className={ styles.link } >
-            Portfolio
-          </Link>
-          <Link to='/blog' className={ styles.link } >
-            Blog
-          </Link>
-          <Link to='/contact' className={ styles.contact } >
-            Contact
-          </Link>
-        </div>
+        <Link to='/portfolio' className={ styles.link } >
+          Portfolio
+        </Link>
+        <Link to='/blog' className={ styles.link } >
+          Blog
+        </Link>
+        <Link to='/contact' className={ styles.contact } >
+          Contact
+        </Link>
       </div>
     </Wrapper>
   )
