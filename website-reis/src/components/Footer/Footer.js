@@ -8,8 +8,8 @@ import Wrapper from '../../hoc/Wrapper/Wrapper'
 
 const Footer = () => {
   return (
-    <Wrapper bgColor='dark-gray' paddingVertical='80px'>
-      <img src={desertImage} className={ styles.image } />
+    <Wrapper bgColor='dark-gray' paddingVertical='80px' display='flex'>
+      <img src={desertImage} className={ styles.image } alt='cactus' />
       <div className={ styles.navWrapper } >
         <NavLinks
           title='Sitemap'

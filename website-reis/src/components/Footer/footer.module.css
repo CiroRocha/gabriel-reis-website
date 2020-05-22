@@ -1,10 +1,10 @@
 .navWrapper {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .image {
-  width: 250px;
-  margin-right: 10rem;
+  width: 23rem;
+  margin-right: 8rem;
 }

@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.crown {
+  width: 4.2rem;
+  position: relative;
+  left: -0.7rem;
+}
+
+.textStyle {
+  font-size: 100px;
+  font-family: 'Nanum Myeongjo';
+}

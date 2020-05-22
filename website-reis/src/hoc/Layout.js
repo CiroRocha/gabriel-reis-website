@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './Layout.css'
+import './Layout.css'
 
 import Navbar from '../components/Navbar/Navbar'
 import SEO from '../components/seo'

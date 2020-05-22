@@ -7,7 +7,7 @@ import Wrapper from '../../hoc/Wrapper/Wrapper'
 
 const Navbar = () => {
   return (
-    <Wrapper paddingVertical= '20px' justifyContent='space-between' >
+    <Wrapper paddingVertical= '20px' justifyContent='space-between' display='flex' >
       <Link to='/' className={ styles.mainLink } >
         Gabriel Reis
       </Link>

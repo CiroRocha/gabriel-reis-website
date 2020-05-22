@@ -32,7 +32,8 @@ module.exports = {
       options: {
         fonts: [
           `Nanum Myeongjo`,
-          `Montserrat\:400, 500, 600`
+          `Montserrat\:400, 500, 600`,
+          `Roboto Mono`
         ],
         display: 'swap'
       },

@@ -1,0 +1,30 @@
+
+
+.linkText {
+  color: var(--dark-gray);
+  font-weight: normal;
+  font-size: var(--paragraph-small);
+  display: inline-flex;
+
+  --transition-time: .15s;
+  transition: font-weight var(--transition-time) ease-out;
+}
+
+.linkText:hover {
+  color: var(--dark-gray);
+  font-weight: bold;
+  transition: font-weight var(--transition-time) ease-out;
+}
+
+.linkText > .arrow {
+  position: relative;
+  margin-left: 0.8rem;
+  width: 1.8rem;
+  left: 0;
+  transition: left var(--transition-time) ease-out;
+}
+
+.linkText:hover > .arrow {
+  left: 6px;
+  transition: left var(--transition-time) ease-out;
+}

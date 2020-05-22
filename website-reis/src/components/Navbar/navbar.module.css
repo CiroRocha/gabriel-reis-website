@@ -26,6 +26,7 @@
 
 .link:hover {
   color: var(--dark-gray);
+  font-weight: 600;
 }
 
 .contact {
@@ -35,4 +36,5 @@
 
 .contact:hover {
   color: var(--light-blue);
+  font-weight: 800;
 }

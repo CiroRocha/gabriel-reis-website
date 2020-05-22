@@ -1,24 +1,25 @@
 .container {
   width: 280px;
+  margin-right: 5rem;
 }
 
-.title {
+.container > .title {
   color: #fff;
   margin-bottom: 25px;
 }
 
-.linksContainer {
+.container > .linksContainer {
   display: flex;
   flex-direction: column;
 }
 
-.text {
+.linksContainer > .text {
   color: var(--light-gray);
   opacity: 0.7;
   margin-bottom: 15px;
 }
 
-.text:hover {
+.linksContainer > .text:hover {
   color: #fff;
   opacity: 1;
 }
