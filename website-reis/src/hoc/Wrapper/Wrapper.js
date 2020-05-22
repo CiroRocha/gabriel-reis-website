@@ -20,14 +20,14 @@ const Wrapper = ({ children, bgColor, paddingVertical, paddingHorizontal, ...res
 }
 
 Wrapper.propTypes = {
-  children: t.object,
   bgColor: t.string,
-  padding: t.string
+  paddingVertical: t.string,
+  paddingHorizontal: t.string,
 }
 
 Wrapper.defaultProps = {
   bgColor: 'white',
-  paddingVertical: '150px',
+  paddingVertical: '5rem',
   paddingHorizontal: '10rem',
 }
 

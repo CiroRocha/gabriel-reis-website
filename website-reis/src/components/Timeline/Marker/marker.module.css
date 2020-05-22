@@ -1,0 +1,10 @@
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  width: 150px;
+  text-align: center;
+}
+
+.container > p {
+  padding: 1rem 0;
+}

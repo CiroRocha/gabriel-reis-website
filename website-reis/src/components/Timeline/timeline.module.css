@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.arrow {
+  margin-top: 4.4rem;
+}
+
+.arrow:hover > img {
+  cursor: pointer;
+}
+
+.arrow:disabled {
+  opacity: 0.4;
+}
+
+.arrow:disabled > img {
+  cursor: default;
+}
+
+.markersContainer {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.markersContainer::after {
+  content: "";
+  position: absolute;
+  top: 5.2rem;
+  height: 5px;
+  width: 90%;
+  background-color: var(--light-gray);
+  z-index: -1;
+}
+
+.emptyMarker {
+  margin-top: 4.75rem;
+}
+
+.emptyMarker > div {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--light-gray);
+}

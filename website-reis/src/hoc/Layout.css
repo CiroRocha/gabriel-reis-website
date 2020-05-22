@@ -14,7 +14,7 @@ body {
   --light-gray: #DBDBDB;
   --red: #FF3F56;
   --yellow: #FFC43C;
-  --light-blue: #3BC5FF;
+  --light-blue: #08b6ff;
   --dark-blue: #2035EE;
 
   --paragraph-big: 32px;
@@ -31,6 +31,13 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 47px;
   margin: 0;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 42px;
+  margin: 0;
+  letter-spacing: 1.3px;
 }
 
 a {
@@ -41,9 +48,23 @@ a {
 }
 
 a:hover {
-  color: var(--dark-blue)
+  color: var(--dark-blue);
 }
 
 p {
   font-size: var(--paragraph-medium);
+  line-height: 1.6;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+button:focus {
+  outline: 0;
 }

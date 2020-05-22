@@ -1,10 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+}
 
+.container > img {
+  margin-right: 1.3rem;
+  width: 4.5rem;
+}
 
 .linkText {
   color: var(--dark-gray);
   font-weight: normal;
-  font-size: var(--paragraph-small);
+  font-size: var(--paragraph-medium);
   display: inline-flex;
+  width: fit-content;
 
   --transition-time: .15s;
   transition: font-weight var(--transition-time) ease-out;
@@ -19,7 +28,7 @@
 .linkText > .arrow {
   position: relative;
   margin-left: 0.8rem;
-  width: 1.8rem;
+  width: 1.7rem;
   left: 0;
   transition: left var(--transition-time) ease-out;
 }

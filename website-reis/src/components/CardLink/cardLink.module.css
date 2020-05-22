@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.iconImg {
+  width: 110px;
+  padding-top: 0.5rem;
+  margin-right: 2rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+}
+
+.textContainer > h2 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.textContainer > p {
+  margin-bottom: 2rem;
+}
